@@ -15,10 +15,10 @@
 ## Features
 
 - 🚀 Real-time screenshot detection
-- 🔄 Cross-platform support (iOS & Android)
+- 🔄 Cross-platform support (iOS, Android & HarmonyOS/OpenHarmony)
 - 🎣 Easy-to-use React hooks
 - ⚡ Optimized for performance
-- 📱 Supports Android 14+ (API level 34+) and iOS 14+
+- 📱 Supports Android 14+ (API level 34+), iOS 14+ and HarmonyOS (API 12+)
 - 🏗️ New Architecture only
 
 ## Compatibility
@@ -28,6 +28,7 @@
 - React Native <0.76, use version 1.2.2 or below 1.2.0 of this package (1.2.1 is buggy)
 - React Native >=0.76, use version 1.3.0 or later
 - React Native >=0.79, use version 1.3.10 or later
+- **HarmonyOS/OpenHarmony:** adapted via RNOH (React Native OpenHarmony) 0.84.x, see [README.OpenHarmony.md](./README.OpenHarmony.md) (中文版：[README.OpenHarmony_CN.md](./README.OpenHarmony_CN.md))
 
 ## Installation
 

@@ -19,6 +19,7 @@
     "android",
     "ios",
     "cpp",
+    "harmony",
     "*.podspec",
     "!ios/build",
     "!android/build",
@@ -133,6 +134,12 @@
     "jsSrcsDir": "src",
     "android": {
       "javaPackageName": "com.screenshotaware"
+    }
+  },
+  "harmony": {
+    "autolinking": {
+      "ohPackageName": "@rnoh/react-native-screenshot-aware",
+      "etsPackageClassName": "ScreenshotAwarePackage"
     }
   },
   "prettier": {

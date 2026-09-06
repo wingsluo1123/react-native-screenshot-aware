@@ -87,3 +87,7 @@ nitrogen/
 
 # Coverage
 coverage/
+# HarmonyOS / OpenHarmony
+.hvigor/
+**/build/
+!harmony/screenshot_aware.har

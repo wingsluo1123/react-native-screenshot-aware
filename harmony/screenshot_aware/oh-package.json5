@@ -1,0 +1,11 @@
+{
+  "name": "@rnoh/react-native-screenshot-aware",
+  "version": "1.0.0",
+  "description": "HarmonyOS/OpenHarmony adaptation package for react-native-screenshot-aware",
+  "main": "Index.ets",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "^0.84.3"
+  }
+}

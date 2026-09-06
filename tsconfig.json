@@ -23,5 +23,11 @@
     "target": "ESNext",
     "verbatimModuleSyntax": true,
     "types": ["jest"]
-  }
+  },
+  "exclude": [
+    "harmony",
+    "node_modules",
+    "example",
+    "lib"
+  ]
 }

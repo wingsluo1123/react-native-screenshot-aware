@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "screenshot_aware",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}
