@@ -89,5 +89,8 @@ nitrogen/
 coverage/
 # HarmonyOS / OpenHarmony
 .hvigor/
+hvigor/
+oh_modules/
+oh-package-lock.json5
 **/build/
 !harmony/screenshot_aware.har
