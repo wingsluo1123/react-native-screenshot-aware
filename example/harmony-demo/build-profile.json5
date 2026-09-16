@@ -1,20 +1,6 @@
 {
   "app": {
-    "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "C:\\Users\\Wanxu Luo\\.ohos\\config\\default_harmony_cfnuXxeLZ-42ONqQgASPbhMDnrQv0cbqzRGcm2FAlzI=.cer",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001B7A6D6BBB62F78016FE49B8A6AAA901F540366C27C388EE17F2AA31B1B2478CD29B44E948B7F264",
-          "profile": "C:\\Users\\Wanxu Luo\\.ohos\\config\\default_harmony_cfnuXxeLZ-42ONqQgASPbhMDnrQv0cbqzRGcm2FAlzI=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\Wanxu Luo\\.ohos\\config\\default_harmony_cfnuXxeLZ-42ONqQgASPbhMDnrQv0cbqzRGcm2FAlzI=.p12",
-          "storePassword": "0000001BE60FB9FA10C516BFC3280678D9D0B04884507194554B9567F1839AB802CDC34E899168596DB047"
-        }
-      }
-    ],
+    "signingConfigs": [],
     "products": [
       {
         "name": "default",
