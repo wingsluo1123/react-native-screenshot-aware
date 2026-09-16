@@ -28,7 +28,19 @@
    根据 RNOH 壳工程位置调整 `file:` 相对路径。
 
 2. 在壳工程目录执行 `ohpm install`，再执行 RNOH 工程定义的 `link-harmony` 命令，使 `ScreenshotAwarePackage` 出现在自动生成的包工厂中。
-3. 按 RNOH 文档生成 RN bundle，并将 `App.tsx` 作为应用入口。以仓库示例为例，bundle 应放在 `entry/src/main/resources/rawfile/`。
+3. 生成 JS bundle：在仓库根目录执行以下命令（需先 `npm install` 安装依赖）：
+
+   ```bash
+   npx react-native bundle \
+     --platform harmony \
+     --dev false \
+     --entry-file example/index.js \
+     --bundle-output example/harmony-demo/entry/src/main/resources/rawfile/bundle.harmony.js \
+     --assets-dest example/harmony-demo/entry/src/main/resources/rawfile
+   ```
+
+   或将 `example/src/App.tsx` 作为应用入口并按 RNOH 工程的 bundle 配置生成。
+
 4. 用 DevEco Studio 构建并运行 `entry` 模块。在 API 12+ 真机上截屏、录屏或投屏，页面中的 `capture events detected` 计数应增加。
 
 没有 API 12+ 鸿蒙真机时，可以运行 TypeScript、Lint 和 Jest 检查，但不能据此宣称鸿蒙事件已经验证。

@@ -9,7 +9,6 @@ export default function App() {
   const handleCapture = useCallback(() => {
     setEventCount((count) => count + 1);
     setLastEventAt(new Date().toLocaleTimeString());
-    console.log('A screenshot or screen-capture event was detected.');
   }, []);
 
   useScreenshotAware(handleCapture);
